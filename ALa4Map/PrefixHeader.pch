@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  ALa4Map
+//
+//  Created by maoziyue on 2017/10/18.
+//  Copyright © 2017年 maoziyue. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <MAMapKit/MAMapKit.h>
+#import <AMapNaviKit/AMapNaviKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
+
+#import "Common.h"
+#import "Const.h"
+#import "Global.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

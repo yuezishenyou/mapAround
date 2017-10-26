@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0CF326BBE591D7FA4CB25C /* libPods-ALa4Map.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 674E5A855F2D064C60FAD1F7 /* libPods-ALa4Map.a */; };
+		2D15B86D1F99855B00A0AAD5 /* ALAnimatedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D15B86C1F99855B00A0AAD5 /* ALAnimatedAnnotation.m */; };
+		2D15B8701F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D15B86F1F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.m */; };
+		2D15B8731F999CDB00A0AAD5 /* ALCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D15B8721F999CDB00A0AAD5 /* ALCalloutView.m */; };
+		2D1726221F98943100F388DA /* JTBorderDotAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1726211F98943100F388DA /* JTBorderDotAnimation.m */; };
+		2D1726251F98E37B00F388DA /* ALTrueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1726241F98E37B00F388DA /* ALTrueAnnotation.m */; };
+		2D1726281F98E39F00F388DA /* ALFalseAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1726271F98E39F00F388DA /* ALFalseAnnotation.m */; };
+		2D17262B1F98E43600F388DA /* ALTureAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D17262A1F98E43600F388DA /* ALTureAnnotationView.m */; };
+		2D17262E1F98E44B00F388DA /* ALFalseAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D17262D1F98E44B00F388DA /* ALFalseAnnotationView.m */; };
+		2D5F8AE21F9712C20044CC4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8AE11F9712C20044CC4A /* AppDelegate.m */; };
+		2D5F8AE51F9712C20044CC4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8AE41F9712C20044CC4A /* ViewController.m */; };
+		2D5F8AE81F9712C20044CC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F8AE61F9712C20044CC4A /* Main.storyboard */; };
+		2D5F8AEA1F9712C20044CC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F8AE91F9712C20044CC4A /* Assets.xcassets */; };
+		2D5F8AED1F9712C20044CC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F8AEB1F9712C20044CC4A /* LaunchScreen.storyboard */; };
+		2D5F8AF01F9712C20044CC4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8AEF1F9712C20044CC4A /* main.m */; };
+		2D5F8B001F97148E0044CC4A /* HHBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8AFF1F97148E0044CC4A /* HHBaseController.m */; };
+		2D5F8B051F9715500044CC4A /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B041F9715500044CC4A /* Global.m */; };
+		2D5F8B081F97163D0044CC4A /* HHMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B071F97163D0044CC4A /* HHMainController.m */; };
+		2D5F8B0B1F9722C80044CC4A /* HHViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B0A1F9722C80044CC4A /* HHViewController2.m */; };
+		2D5F8B0E1F9724600044CC4A /* HHViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B0D1F9724600044CC4A /* HHViewController3.m */; };
+		2D5F8B111F97246D0044CC4A /* HHViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B101F97246D0044CC4A /* HHViewController4.m */; };
+		2D5F8B141F9724770044CC4A /* HHViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B131F9724770044CC4A /* HHViewController5.m */; };
+		2D5F8B171F9724820044CC4A /* HHViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B161F9724820044CC4A /* HHViewController6.m */; };
+		2D5F8B1A1F9724B20044CC4A /* HHViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8B191F9724B20044CC4A /* HHViewController7.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D15B86B1F99855B00A0AAD5 /* ALAnimatedAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAnimatedAnnotation.h; sourceTree = "<group>"; };
+		2D15B86C1F99855B00A0AAD5 /* ALAnimatedAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAnimatedAnnotation.m; sourceTree = "<group>"; };
+		2D15B86E1F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAnimatedAnnotatinView.h; sourceTree = "<group>"; };
+		2D15B86F1F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAnimatedAnnotatinView.m; sourceTree = "<group>"; };
+		2D15B8711F999CDB00A0AAD5 /* ALCalloutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALCalloutView.h; sourceTree = "<group>"; };
+		2D15B8721F999CDB00A0AAD5 /* ALCalloutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALCalloutView.m; sourceTree = "<group>"; };
+		2D1726201F98943100F388DA /* JTBorderDotAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBorderDotAnimation.h; sourceTree = "<group>"; };
+		2D1726211F98943100F388DA /* JTBorderDotAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBorderDotAnimation.m; sourceTree = "<group>"; };
+		2D1726231F98E37B00F388DA /* ALTrueAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTrueAnnotation.h; sourceTree = "<group>"; };
+		2D1726241F98E37B00F388DA /* ALTrueAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALTrueAnnotation.m; sourceTree = "<group>"; };
+		2D1726261F98E39F00F388DA /* ALFalseAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALFalseAnnotation.h; sourceTree = "<group>"; };
+		2D1726271F98E39F00F388DA /* ALFalseAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALFalseAnnotation.m; sourceTree = "<group>"; };
+		2D1726291F98E43600F388DA /* ALTureAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALTureAnnotationView.h; sourceTree = "<group>"; };
+		2D17262A1F98E43600F388DA /* ALTureAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALTureAnnotationView.m; sourceTree = "<group>"; };
+		2D17262C1F98E44B00F388DA /* ALFalseAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALFalseAnnotationView.h; sourceTree = "<group>"; };
+		2D17262D1F98E44B00F388DA /* ALFalseAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALFalseAnnotationView.m; sourceTree = "<group>"; };
+		2D5F8ADD1F9712C20044CC4A /* ALa4Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALa4Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5F8AE01F9712C20044CC4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D5F8AE11F9712C20044CC4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D5F8AE31F9712C20044CC4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D5F8AE41F9712C20044CC4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D5F8AE71F9712C20044CC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D5F8AE91F9712C20044CC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D5F8AEC1F9712C20044CC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D5F8AEE1F9712C20044CC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5F8AEF1F9712C20044CC4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D5F8AF61F9713CB0044CC4A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2D5F8AFE1F97148E0044CC4A /* HHBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHBaseController.h; sourceTree = "<group>"; };
+		2D5F8AFF1F97148E0044CC4A /* HHBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHBaseController.m; sourceTree = "<group>"; };
+		2D5F8B011F97152C0044CC4A /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		2D5F8B021F97153E0044CC4A /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		2D5F8B031F9715500044CC4A /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		2D5F8B041F9715500044CC4A /* Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		2D5F8B061F97163D0044CC4A /* HHMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMainController.h; sourceTree = "<group>"; };
+		2D5F8B071F97163D0044CC4A /* HHMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMainController.m; sourceTree = "<group>"; };
+		2D5F8B091F9722C80044CC4A /* HHViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController2.h; sourceTree = "<group>"; };
+		2D5F8B0A1F9722C80044CC4A /* HHViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController2.m; sourceTree = "<group>"; };
+		2D5F8B0C1F9724600044CC4A /* HHViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController3.h; sourceTree = "<group>"; };
+		2D5F8B0D1F9724600044CC4A /* HHViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController3.m; sourceTree = "<group>"; };
+		2D5F8B0F1F97246D0044CC4A /* HHViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController4.h; sourceTree = "<group>"; };
+		2D5F8B101F97246D0044CC4A /* HHViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController4.m; sourceTree = "<group>"; };
+		2D5F8B121F9724770044CC4A /* HHViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController5.h; sourceTree = "<group>"; };
+		2D5F8B131F9724770044CC4A /* HHViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController5.m; sourceTree = "<group>"; };
+		2D5F8B151F9724820044CC4A /* HHViewController6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController6.h; sourceTree = "<group>"; };
+		2D5F8B161F9724820044CC4A /* HHViewController6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController6.m; sourceTree = "<group>"; };
+		2D5F8B181F9724B20044CC4A /* HHViewController7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewController7.h; sourceTree = "<group>"; };
+		2D5F8B191F9724B20044CC4A /* HHViewController7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewController7.m; sourceTree = "<group>"; };
+		50B13861AEE264AB001014E6 /* Pods-ALa4Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALa4Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALa4Map/Pods-ALa4Map.release.xcconfig"; sourceTree = "<group>"; };
+		674E5A855F2D064C60FAD1F7 /* libPods-ALa4Map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALa4Map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B6F1BD8E738EC70597376 /* Pods-ALa4Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALa4Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALa4Map/Pods-ALa4Map.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5F8ADA1F9712C20044CC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0CF326BBE591D7FA4CB25C /* libPods-ALa4Map.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D17261F1F98943100F388DA /* JTBorderDotAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2D1726201F98943100F388DA /* JTBorderDotAnimation.h */,
+				2D1726211F98943100F388DA /* JTBorderDotAnimation.m */,
+			);
+			path = JTBorderDotAnimation;
+			sourceTree = "<group>";
+		};
+		2D5F8AD41F9712C20044CC4A = {
+			isa = PBXGroup;
+			children = (
+				2D5F8AF71F9714160044CC4A /* Code */,
+				2D5F8ADF1F9712C20044CC4A /* ALa4Map */,
+				2D5F8ADE1F9712C20044CC4A /* Products */,
+				DBB3603E3CE6284A69D1E137 /* Pods */,
+				D7559D721511A5D78AE0AEFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5F8ADE1F9712C20044CC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8ADD1F9712C20044CC4A /* ALa4Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5F8ADF1F9712C20044CC4A /* ALa4Map */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8AE01F9712C20044CC4A /* AppDelegate.h */,
+				2D5F8AE11F9712C20044CC4A /* AppDelegate.m */,
+				2D5F8AE31F9712C20044CC4A /* ViewController.h */,
+				2D5F8AE41F9712C20044CC4A /* ViewController.m */,
+				2D5F8AE61F9712C20044CC4A /* Main.storyboard */,
+				2D5F8AE91F9712C20044CC4A /* Assets.xcassets */,
+				2D5F8AEB1F9712C20044CC4A /* LaunchScreen.storyboard */,
+				2D5F8AEE1F9712C20044CC4A /* Info.plist */,
+				2D5F8AEF1F9712C20044CC4A /* main.m */,
+				2D5F8AF61F9713CB0044CC4A /* PrefixHeader.pch */,
+			);
+			path = ALa4Map;
+			sourceTree = "<group>";
+		};
+		2D5F8AF71F9714160044CC4A /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8B1B1F9740310044CC4A /* Util */,
+				2D5F8AFC1F97147A0044CC4A /* Base */,
+				2D5F8AFD1F97147A0044CC4A /* Category */,
+				2D5F8AF91F9714790044CC4A /* Common */,
+				2D5F8AF81F9714790044CC4A /* Controller */,
+				2D5F8AFA1F9714790044CC4A /* View */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		2D5F8AF81F9714790044CC4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8B061F97163D0044CC4A /* HHMainController.h */,
+				2D5F8B071F97163D0044CC4A /* HHMainController.m */,
+				2D5F8B091F9722C80044CC4A /* HHViewController2.h */,
+				2D5F8B0A1F9722C80044CC4A /* HHViewController2.m */,
+				2D5F8B0C1F9724600044CC4A /* HHViewController3.h */,
+				2D5F8B0D1F9724600044CC4A /* HHViewController3.m */,
+				2D5F8B0F1F97246D0044CC4A /* HHViewController4.h */,
+				2D5F8B101F97246D0044CC4A /* HHViewController4.m */,
+				2D5F8B121F9724770044CC4A /* HHViewController5.h */,
+				2D5F8B131F9724770044CC4A /* HHViewController5.m */,
+				2D5F8B151F9724820044CC4A /* HHViewController6.h */,
+				2D5F8B161F9724820044CC4A /* HHViewController6.m */,
+				2D5F8B181F9724B20044CC4A /* HHViewController7.h */,
+				2D5F8B191F9724B20044CC4A /* HHViewController7.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D5F8AF91F9714790044CC4A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8B011F97152C0044CC4A /* Common.h */,
+				2D5F8B021F97153E0044CC4A /* Const.h */,
+				2D5F8B031F9715500044CC4A /* Global.h */,
+				2D5F8B041F9715500044CC4A /* Global.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2D5F8AFA1F9714790044CC4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D15B8711F999CDB00A0AAD5 /* ALCalloutView.h */,
+				2D15B8721F999CDB00A0AAD5 /* ALCalloutView.m */,
+				2D1726231F98E37B00F388DA /* ALTrueAnnotation.h */,
+				2D1726241F98E37B00F388DA /* ALTrueAnnotation.m */,
+				2D1726261F98E39F00F388DA /* ALFalseAnnotation.h */,
+				2D1726271F98E39F00F388DA /* ALFalseAnnotation.m */,
+				2D1726291F98E43600F388DA /* ALTureAnnotationView.h */,
+				2D17262A1F98E43600F388DA /* ALTureAnnotationView.m */,
+				2D17262C1F98E44B00F388DA /* ALFalseAnnotationView.h */,
+				2D17262D1F98E44B00F388DA /* ALFalseAnnotationView.m */,
+				2D15B86B1F99855B00A0AAD5 /* ALAnimatedAnnotation.h */,
+				2D15B86C1F99855B00A0AAD5 /* ALAnimatedAnnotation.m */,
+				2D15B86E1F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.h */,
+				2D15B86F1F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D5F8AFC1F97147A0044CC4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8AFE1F97148E0044CC4A /* HHBaseController.h */,
+				2D5F8AFF1F97148E0044CC4A /* HHBaseController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2D5F8AFD1F97147A0044CC4A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2D5F8B1B1F9740310044CC4A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2D17261F1F98943100F388DA /* JTBorderDotAnimation */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D7559D721511A5D78AE0AEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				674E5A855F2D064C60FAD1F7 /* libPods-ALa4Map.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB3603E3CE6284A69D1E137 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F36B6F1BD8E738EC70597376 /* Pods-ALa4Map.debug.xcconfig */,
+				50B13861AEE264AB001014E6 /* Pods-ALa4Map.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5F8ADC1F9712C20044CC4A /* ALa4Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5F8AF31F9712C20044CC4A /* Build configuration list for PBXNativeTarget "ALa4Map" */;
+			buildPhases = (
+				BDF22E0E3D8BD21A6C4C80A5 /* [CP] Check Pods Manifest.lock */,
+				2D5F8AD91F9712C20044CC4A /* Sources */,
+				2D5F8ADA1F9712C20044CC4A /* Frameworks */,
+				2D5F8ADB1F9712C20044CC4A /* Resources */,
+				7A08DDEF85996E76947FA5CC /* [CP] Embed Pods Frameworks */,
+				604DA60D98A0C8CE4368B3B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALa4Map;
+			productName = ALa4Map;
+			productReference = 2D5F8ADD1F9712C20044CC4A /* ALa4Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5F8AD51F9712C20044CC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HH;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = maoziyue;
+				TargetAttributes = {
+					2D5F8ADC1F9712C20044CC4A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2D5F8AD81F9712C20044CC4A /* Build configuration list for PBXProject "ALa4Map" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D5F8AD41F9712C20044CC4A;
+			productRefGroup = 2D5F8ADE1F9712C20044CC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5F8ADC1F9712C20044CC4A /* ALa4Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5F8ADB1F9712C20044CC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5F8AED1F9712C20044CC4A /* LaunchScreen.storyboard in Resources */,
+				2D5F8AEA1F9712C20044CC4A /* Assets.xcassets in Resources */,
+				2D5F8AE81F9712C20044CC4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		604DA60D98A0C8CE4368B3B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ALa4Map/Pods-ALa4Map-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALa4Map/Pods-ALa4Map-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A08DDEF85996E76947FA5CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALa4Map/Pods-ALa4Map-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF22E0E3D8BD21A6C4C80A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALa4Map-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5F8AD91F9712C20044CC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1726251F98E37B00F388DA /* ALTrueAnnotation.m in Sources */,
+				2D5F8B1A1F9724B20044CC4A /* HHViewController7.m in Sources */,
+				2D5F8B0E1F9724600044CC4A /* HHViewController3.m in Sources */,
+				2D17262E1F98E44B00F388DA /* ALFalseAnnotationView.m in Sources */,
+				2D5F8B171F9724820044CC4A /* HHViewController6.m in Sources */,
+				2D17262B1F98E43600F388DA /* ALTureAnnotationView.m in Sources */,
+				2D15B86D1F99855B00A0AAD5 /* ALAnimatedAnnotation.m in Sources */,
+				2D5F8B001F97148E0044CC4A /* HHBaseController.m in Sources */,
+				2D5F8B0B1F9722C80044CC4A /* HHViewController2.m in Sources */,
+				2D5F8B111F97246D0044CC4A /* HHViewController4.m in Sources */,
+				2D15B8731F999CDB00A0AAD5 /* ALCalloutView.m in Sources */,
+				2D15B8701F9987BA00A0AAD5 /* ALAnimatedAnnotatinView.m in Sources */,
+				2D5F8B141F9724770044CC4A /* HHViewController5.m in Sources */,
+				2D1726281F98E39F00F388DA /* ALFalseAnnotation.m in Sources */,
+				2D5F8AE51F9712C20044CC4A /* ViewController.m in Sources */,
+				2D5F8B051F9715500044CC4A /* Global.m in Sources */,
+				2D5F8AF01F9712C20044CC4A /* main.m in Sources */,
+				2D5F8B081F97163D0044CC4A /* HHMainController.m in Sources */,
+				2D5F8AE21F9712C20044CC4A /* AppDelegate.m in Sources */,
+				2D1726221F98943100F388DA /* JTBorderDotAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D5F8AE61F9712C20044CC4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5F8AE71F9712C20044CC4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D5F8AEB1F9712C20044CC4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5F8AEC1F9712C20044CC4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D5F8AF11F9712C20044CC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D5F8AF21F9712C20044CC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5F8AF41F9712C20044CC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36B6F1BD8E738EC70597376 /* Pods-ALa4Map.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U849E38UE8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ALa4Map/PrefixHeader.pch";
+				INFOPLIST_FILE = ALa4Map/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maossiswo.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5F8AF51F9712C20044CC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B13861AEE264AB001014E6 /* Pods-ALa4Map.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U849E38UE8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ALa4Map/PrefixHeader.pch";
+				INFOPLIST_FILE = ALa4Map/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maossiswo.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5F8AD81F9712C20044CC4A /* Build configuration list for PBXProject "ALa4Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5F8AF11F9712C20044CC4A /* Debug */,
+				2D5F8AF21F9712C20044CC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5F8AF31F9712C20044CC4A /* Build configuration list for PBXNativeTarget "ALa4Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5F8AF41F9712C20044CC4A /* Debug */,
+				2D5F8AF51F9712C20044CC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5F8AD51F9712C20044CC4A /* Project object */;
+}
